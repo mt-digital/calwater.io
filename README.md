@@ -1,10 +1,13 @@
 # calwater.io
 Solution to 2016 CA Water Board Data Innovation Challenge
 
-# Working with CDEN data for data challenge
+To see initial progress digging in to CEDEN data, run
+examples/map-weather-stations.py in an ipython shell.
+
+# Working with CEDEN data for data challenge
 
 The California water board announced a [Data Innovation Challenge](http://www.waterboards.ca.gov/resources/data_databases/docs/wb_datainvtn_flyer.pdf) calling for creating "apps, visualizations, and other tools that can help better harness data that is currently
-available". 
+available".
 
 I want to apply some key lessons I've learned in working with and thinking about data portals, apps, and APIs. Some of the principles are focusing around particular themes, enabling developers to do creative things with the data, enabling others to access data specific to their communities. Simplicity.
 
@@ -52,4 +55,4 @@ Some of the following questions may be addressed using our existing datasets, es
 
 ### Available Datasets
 
-There seems to be only one publicly available dataset without login: California Environmental Data Exchange Network [CEDEN](http://www.ceden.org/). I already requested a full data download which I'll soon make available. 
+There seems to be only one publicly available dataset without login: California Environmental Data Exchange Network [CEDEN](http://www.ceden.org/). I already requested a full data download which I'll soon make available.
