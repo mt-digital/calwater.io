@@ -4,7 +4,7 @@ import numpy as np
 import cartopy
 
 # load ceden data into dataframe
-ceden = pd.read_table('../data/ceden_sample.txt', low_memory=False)
+ceden = pd.read_table('data/ceden_sample.txt', low_memory=False)
 
 # take out a few important columns just for demonstration
 ceden_lim = ceden[
