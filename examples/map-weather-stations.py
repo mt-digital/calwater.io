@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 import cartopy
 
 # load ceden data into dataframe
@@ -16,7 +15,7 @@ ceden_lim = ceden[
 latlon = ceden[['TargetLongitude', 'TargetLatitude']]
 # take unique, non-na coords
 latlon.dropna(inplace=True)
-xyunique = np.unique(
+xyunique = set(
     zip(latlon.TargetLongitude, latlon.TargetLatitude)
 )
 
