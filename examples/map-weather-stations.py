@@ -16,7 +16,7 @@ ceden_lim = ceden[
 latlon = ceden[['TargetLongitude', 'TargetLatitude']]
 # take unique, non-na coords
 latlon.dropna(inplace=True)
-xyunique = np.unique(
+xyunique = set(
     zip(latlon.TargetLongitude, latlon.TargetLatitude)
 )
 
