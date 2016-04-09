@@ -1,0 +1,12 @@
+Cartopy==0.13.0
+Cython==0.23.5
+PGen==0.2.1
+Shapely==1.5.12
+argparse==1.2.1
+numpy==1.11.0
+pandas==0.18.0
+pyshp==1.2.3
+python-dateutil==2.5.2
+pytz==2016.3
+six==1.10.0
+wsgiref==0.1.2
